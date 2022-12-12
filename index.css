@@ -4129,23 +4129,16 @@ html {
 .duration-500 {
 	transition-duration: 500ms;
 }
-
-@variants hover {
-
-}
-
 .before\:bg-pink-500::before {
 	content: "";
 	--tw-bg-opacity: 1;
 	background-color: rgba(236, 72, 153, var(--tw-bg-opacity));
 }
-
 .after\:bg-pink-500::after {
 	content: "";
 	--tw-bg-opacity: 1;
 	background-color: rgba(236, 72, 153, var(--tw-bg-opacity));
 }
-
 .hover\:table:hover tr.hover\:hover:hover:hover td,.hover\:table:hover tr.hover\:hover:hover:hover th,.hover\:table:hover tr.hover\:hover:hover:nth-child(2n):hover td,.hover\:table:hover tr.hover\:hover:hover:nth-child(2n):hover th {
 	--tw-bg-opacity: 1;
 	background-color: hsla(var(--b3)/var(--tw-bg-opacity,1));
@@ -4156,39 +4149,32 @@ html {
 	--tw-bg-opacity: 1;
 	background-color: hsla(var(--b3)/var(--tw-bg-opacity,1));
 }
-
 .hover\:scale-110:hover {
 	--tw-scale-x: 1.1;
 	--tw-scale-y: 1.1;
 	transform: var(--tw-transform);
 }
-
 .hover\:bg-pink-500:hover {
 	--tw-bg-opacity: 1;
 	background-color: rgba(236, 72, 153, var(--tw-bg-opacity));
 }
-
 .hover\:text-pink-500:hover {
 	--tw-text-opacity: 1;
 	color: rgba(236, 72, 153, var(--tw-text-opacity));
 }
-
 .hover\:text-white:hover {
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
-
 .hover\:underline:hover {
 	text-decoration: underline;
 }
-
 @media (min-width: 640px) {
 
 	.sm\:pb-24 {
 		padding-bottom: 6rem;
 	}
 }
-
 @media (min-width: 768px) {
 
 	.md\:flex {
@@ -4208,7 +4194,6 @@ html {
 		line-height: 1;
 	}
 }
-
 @media (min-width: 1024px) {
 
 	.lg\:text-6xl {
